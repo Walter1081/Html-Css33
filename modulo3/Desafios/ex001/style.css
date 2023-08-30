@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@200&family=Sriracha&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@200&family=Passion+One&display=swap');
+ body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding: 22px;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    font-size: 23px ;
+}
+header > h1{
+    
+    font-family: 'Passion One', cursive;
+    font-size: 86px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    font-family: 'Sriracha', cursive;
+    font-size: 48px;
+    padding: 38px;
+}
+section#n1{
+    background-color: white;
+}
+section#n2{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed ;
+}
+section#n2 > p{
+   
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    width: 560px;
+    margin: 0px;
+   
+    
+}
+@media screen and (max-width: 768px) {
+    p {
+      font-size: 19px; /* tamanho do texto para telas menores que 768px */
+      max-width: 224px;
+    }
+  }
+  
+section#n3{
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    
+}
+section#n3 > p{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    width: 584px;
+}
+span{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+}
