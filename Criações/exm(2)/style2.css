@@ -28,9 +28,10 @@ main{
    height: 92vh;
 }
 article{
-    background-color: antiquewhite;
+    background-color: rgba(155, 116, 65, 0.849);
     padding: 20px;
     margin: 23px;
+    text-align: center;
 }
 .nav-list{
     list-style: none;

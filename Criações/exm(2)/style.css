@@ -18,8 +18,9 @@ header > a{
     padding: 15px;
     display: inline-flex;
     min-width: 1228px;
-    
-
+}
+#a1{
+    background-color: black;
 }
 a:hover{
     background-color: antiquewhite;
@@ -31,7 +32,7 @@ header{
     padding: 16px;
 }
 article{
-    background-color: antiquewhite;
+    background-color: rgba(201, 171, 132, 0);
     position: absolute;
     margin: 62px;
     padding: 6px;
