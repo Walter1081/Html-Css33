@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Questionario aleatório!</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="inome">Nome Completo</label>
+            <input type="text" name="inome" id="inome" required maxlength="15" minlength="4" placeholder="Nome de usuario">
+        </p>
+        <p>
+            <label for="Email">E-mail</label>
+            <input type="email" name="imal" id="imal" placeholder="E-mail">
+        </p>
+        <p>
+            <label for="inumero">Numero</label>
+            <input type="number" name="inumero" id="inumero" required maxlength="12" placeholder="Numero do Usuario"> 
+        </p>
+        <p>
+            <input type="reset" value="Resetar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
