@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: #272747 ;
+    padding: 50px;
+    width: 1000px;
+    
+}
